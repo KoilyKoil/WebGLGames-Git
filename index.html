@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game HyperLink</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            text-align: center;
+            padding: 50px;
+        }
+        h1 {
+            color: #2c3e50;
+        }
+        .game-list {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 15px;
+            margin-top: 30px;
+        }
+        .game-link {
+            display: block;
+            width: 300px;
+            padding: 15px 20px;
+            background-color: #3498db;
+            color: white;
+            text-decoration: none;
+            font-size: 1.2rem;
+            border-radius: 8px;
+            transition: background-color 0.3s ease, transform 0.1s ease;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        .game-link:hover {
+            background-color: #2980b9;
+            transform: translateY(-2px);
+        }
+        .game-link:active {
+            transform: translateY(0);
+        }
+    </style>
+</head>
+<body>
+    <h1>🎮 Game HyperLink 🎮</h1>
+    <p>Play the game you want to play.</p>
+    
+    <ul class="game-list">
+        <li><a href="./Pixel,Gacha,Auto/" class="game-link">Pixel, Gacha, Auto!</a></li>
+    </ul>
+</body>
+</html>
